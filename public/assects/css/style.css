@@ -1,0 +1,373 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,400;1,700&family=Poppins:ital,wght@1,500&display=swap');
+
+
+ /* Set background image */
+ body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+  }
+  
+ .bg-image {
+    background-image: url(https://cdn.shopify.com/s/files/1/0635/2581/4492/files/slider_bg.jpg?v=1648699665);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+/* Set white text color */
+.text-white {
+    color: #fff;
+}
+
+
+/* cgat gpt  */
+.card {
+    position: relative;
+  }
+  
+  .card-cart {
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover .card-cart {
+    opacity: 1;
+   color: rgb(38, 208, 140) !important;
+  }
+  .fa-shopping-cart {
+    font-size: 2rem;
+}
+  .card-cart2{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .card:hover .card-cart2 {
+    opacity: 1;
+   color: rgb(23, 13, 16);
+    
+  }
+  .fa-regular{
+    
+    font-size: 2rem;
+}
+  .card-cart3{
+    position: absolute;
+    top: 60%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover .card-cart3 {
+    opacity: 1;
+   color: rgb(192, 195, 11);
+    
+  }
+  
+.fa-solid{
+      font-size: 2rem;
+
+  }
+  .card{
+    border-radius: 40px;
+    transition: 0.7s all ease;
+    height: 400px;
+    width: 300px;
+    margin-left: 25px;
+  }
+  .card:hover{
+    transform: scale(0.9);
+    transition: 0.7s all ease;
+    box-shadow: 0px 0px 25px rgb(219, 216, 174);
+  }
+
+  /* mens women watch card hover css  */
+
+  .mensimg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .mensimg:hover .card-overlay {
+    opacity: 1;
+  }
+  
+  .mensimg-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+  }  
+
+  .mensimg{
+    border-radius: 30px;
+  }
+
+ /* blog section css start  */
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-container:hover img {
+      transition:0.5s all ease;
+    /* transform: scale(1.2); */
+    /* rotate: 15deg; */
+    margin-left: 10%;
+  }
+  .blog-text{
+
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+  }
+
+
+  .image-container {
+    position: relative;
+    height: 460px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay:hover {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .blog-img{
+
+    transition: 0.9s all ease;
+  }
+  .blog-img:hover{
+    rotate: 15deg;
+  }
+
+
+  /* certificate image section start  */
+
+ .navbar{
+   background-color: rgb(10, 8, 8) !important;
+   box-shadow: inset; 
+  }
+
+  .cartbtn{
+
+    background: #dfbb03 !important;
+    color: #fff !important;
+  }
+  .cartbtn:hover{
+    
+    background: rgb(195,247,58) !important;
+    color: #111 !important;
+  }
+  .navbae-icon{
+    background: #dfbb03 !important;
+    
+    
+  }
+  .navbae-icon:hover{
+    
+    background: rgb(195,247,58) !important;
+  
+  }
+
+
+
+ .list-unstyled li{ 
+  color: rgb(207,180,113) ;
+  list-style-type: none !important;
+
+ }
+ .list-unstyled li:hover{
+  color: rgb(241, 242, 233);
+  cursor: pointer;
+ }
+ .navbar ul li a{
+  color: #c7dec1 !important;
+}
+.navbar ul li :hover{
+  color: #d8bc31 !important;
+}
+
+  
+/* fontfamily card css start  */
+
+.companyname{
+  
+  color: rgb(195,247,58) !important;
+  font-family: 'Merriweather', serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Roboto Mono', monospace; */
+  font-weight: 900;
+  font-size: 20px !important;
+}
+/* .home-text{
+     color: rgb(5, 234, 192) !important;
+
+   } */
+  .nav-link{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 20px !important;
+
+  }
+  .fontfamily2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px !important;
+    color: rgb(240, 185, 118) !important;
+    font-weight: 500 !important;
+  }
+  .fontfamily3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px !important;
+    color: rgb(253, 143, 10) !important;
+    font-weight: 900 !important;
+  }
+  .fontfamily5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px !important;
+    color: rgb(255, 246, 235) !important;
+    font-weight: 500 !important;
+  }
+  .fontfamily4{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 246, 235) !important;
+  }
+  .fontfamily1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px !important;
+    color: rgb(75, 63, 49) !important;
+    font-weight: 700 !important;
+  }
+
+  .card-text1{
+    color: rgb(83, 19, 27) !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700 !important;
+
+  }
+  .card-text2{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Merriweather', serif;
+
+    font-weight: 700 !important;
+    color: rgb(192, 62, 10) !important;
+    font-weight: 500 !important;
+  }
+  .card-text3{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Merriweather', serif;
+
+    font-weight: 700 !important;
+    color: rgb(9, 62, 48) !important;
+    font-weight: 500 !important;
+  }
+  .card-star{
+    font-size: 10px !important;
+    color: rgb(237, 213, 108);
+  }
+  .remove-btn{
+    color: #111 !important;
+    background-color: rgb(248, 10, 10) !important;
+  }
+  .remove-btn:hover{
+    background-color: rgb(218, 63, 63) !important;
+  }
+  
+
+  
+  
+ 
+  
+
+
+  
+  
+
+  
+  
+  
